@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
+
+body {
+        background: linear-gradient(156deg, #f5d15d 50%, #FFFFFF 50%);
+        background-repeat: no-repeat;
+        min-height: 95vh;
+        position: relative;
+        letter-spacing: 0.07em;
+}
+
+html {
+        font-size: 16px;
+}
+
+h1 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        font-family: "Baloo Tamma 2";
+        letter-spacing: 0.5rem;
+        font-weight: bold;
+}
+
+.container {
+        margin: 3rem auto 1.5rem auto;
+        padding: 0 12px;
+        width: 500px;
+}
+.card {
+        margin-bottom: 0.5rem;
+        max-width: 100%;
+        padding: 1rem;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+input[type="text"] {
+        width: 100%;
+        border: 0;
+        outline: 0;
+        font-size: 1.4rem;
+        color: black;
+        font-family: "Noto Serif", "Helvetica Neue";
+}
+.input {
+        padding: 4px 4px 4px 10rem;
+        display: flex;
+}
+.btn_add {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: black;
+        color: #fff;
+        font-size: 2rem;
+        text-decoration: none;
+}
+.botonM{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 180px;
+        height: 40px;
+        border-radius: 10px;
+        background: black;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none; 
+        font-family: "Baloo Tamma 2";
+        margin-top: 40px;
+}
+.botonL{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 180px;
+        height: 40px;
+        border-radius: 10px;
+        background: black;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none; 
+        font-family: "Baloo Tamma 2";
+        margin-left: 320px;
+        margin-top: -40px;
+}
+
+ul#lista {
+        margin-left: -8%;
+        margin-top: 40px;
+}
+
+ul#lista li {
+        background: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+ul#lista li .btn_eliminar {
+        background: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 3px 10px;
+        cursor: pointer;
+        font-family: "Baloo Tamma 2";
+}
+
